@@ -17,7 +17,7 @@ const createDeck = () => {
 }
 
 const AppBase = ({ firebase }: { firebase: any }) => {
-  const [name, setName] = useState('Leight')
+  const [name, setName] = useState('')
   const [gameState, setGameState] = useState<any>()
 
   useEffect(() => {
